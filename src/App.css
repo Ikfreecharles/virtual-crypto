@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Oswald:wght@200;300;400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --main-black: #000;
+  --main-white: #fff;
+  --main-red: red;
+  --sec-red: #6d0000;
+  --main-yellow: #fbbe35;
+  --sec-black: #1e1f23;
+  --ter-black: #737376;
+  --main-font: Oswald, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: var(--main-black) !important;
+  color: var(--main-white);
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 320px) {
+  body,
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body,
+  html {
+    font-size: 12px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+span,
+div {
+  color: var(--main-white);
+}
+
+h1,
+h2 {
+  font-family: Oswald, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 199px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(49, 49, 49);
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+}
